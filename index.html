@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,17 +9,43 @@
     <link rel="stylesheet" href="bootstrap-5/bootstrap.min.css">
     <link rel="stylesheet" href="css/estilo.css">
 </head>
+
 <body>
-    <h1 class="text-center">Hello Bootstrap</h1>
-    <div class="container">
+    <main class="container">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light d-flex justify-content-center">
+                <a href="#" class="nav-brand">
+                    <img src="img/logo.png" alt="" width="60">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navegacao-principal" aria-controls="#navegacao-principal" aria-expanded="false"
+                    aria-label="Toggle Navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navegacao-principal">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                        <a href="#" class="nav-link">VANTAGENS</a>
+                        <a href="#" class="nav-link">DESTINOS</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    
+        <figure class="figure">
+            <img src="img/nova-york-4.jpg" alt="" class="figure-img img-fluid mx-auto d-block">
+        </figure>
+        
         <div class="row">
-            <div class="col-sm">Coluna 1</div>
-            <div class="col-sm">Coluna 2</div>
-            <div class="col-sm">Coluna 3</div>
+            <div class="col">
+                <h2>CONHEÇA AS VANTAGENS DE VIAJAR COM A GENTE</h2>
+                <p>aqui vem um texto de descrição das vantagens de viajar com a gente.</p>
+            </div>
         </div>
-    </div>
+    </main>
 
     <script src="bootstrap-5/bootstrap.bundle.min.js"></script>
     <script src="js/script.js"></script>
 </body>
+
 </html>
