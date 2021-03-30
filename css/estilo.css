@@ -8,3 +8,9 @@
     height: 250px;
     object-fit: cover;
 }
+
+i {
+    display: block;
+    width: 48px;
+    text-align: center;
+}
